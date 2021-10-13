@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="encoding" charset="UTF-8">
+        <meta name="autor" content="Belinda Romo">
+        <meta name="description" content="Certamen 2">
+        <meta name="abstract" content="content">
+
+        <title>Certamen 2 - Belinda Romo</title>
+        <!-- Estilos -->
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- Bootstrap CDN-->
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="cajaFoto">
+            <span class="miniFoto">
+                <img src="imgs/Personafoto.png" alt="" class="foto">
+                <span class="nombre">Pepito Pérez</span><br>
+            </span>
+            <span class="datitos">
+                <span class="datos">Septiembre 21, 1979, 43 años</span><br><br>
+            </span>
+        </div>
+        <div class="cajaSignos">
+            <p>ULTIMOS SIGNOS VITALES</p>
+            <form class="signos">
+                <div class="desc">
+                    <span class="sp1"> Estatura                  </span>
+                    <input type="number" class="inputtt">
+                </div>
+                <div class="desc">
+                    <span class="sp1"> Peso                       </span>
+                    <input type="number" class="inputtt">
+                </div>
+                <div class="desc">
+                    <span class="sp1">Frecuencia Cardiaca</span>
+                    <input type="number" class="inputtt">
+                </div>
+            </form>
+        </div>
+        <h1>Información</h1>
+        <form class="formulario">
+            <div class="form-group row">
+                <label for="NombreC" class="col-sm-2 col-form-label">Nombre Completo</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="NombreC" placeholder="Nombre Completo">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="Edad" class="col-sm-2 col-form-label">Edad </label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" id="Edad" placeholder="Edad">
+                </div>
+            </div>
+            <label for="genero">Genero</label>
+            <select class="form-control form-control-sm" name="genero" id="genero">
+                <option value="1">Hombre</option>
+                <option value="2">Mujer</option>
+                <option value="3">Otro</option>
+            </select>
+            <br>
+            <div class="form-group row"> 
+                <label for="date">Fecha Nacimiento</label>
+                <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+            </div>
+            <div class="form-group row">
+                <label for="correo" class="col-sm-2 col-form-label">Correo Electronico </label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="correo" placeholder="ejemplo@ejemplo.com">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="telefo" class="col-sm-2 col-form-label">Numero Telefonico </label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" id="telefo" placeholder="976695570">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="rut" class="col-sm-2 col-form-label">RUT </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="rut" placeholder="xx.xxx.xxx-x">
+                </div>
+            </div>
+            <label for="region">Region</label>
+            <select class="form-control form-control-sm" name="region" id="region">
+                <option value="1r">Metropolitana</option>
+                <option value="2r">Valparaiso</option>
+                <option value="3r">Otro</option>
+            </select>
+            <br>
+            <label for="comuna">Comuna</label>
+            <select class="form-control form-control-sm" name="comuna" id="comuna">
+                <option value="1c">La Pintana</option>
+                <option value="2c">Vina del Mar</option>
+                <option value="3c">Otro</option>
+            </select>
+            <br>
+            <button type="button" class="btn btn-info" onclick="location.href='home.html'" target="_blank">Actualizar</button>
+        </form>
+        <div class="cajaAntec">
+            <div class="antec">
+                <span>Antecedentes Clínicos             </span> 
+                <button type="button" class="btn btn-success">Agregar</button>
+                <br><br>
+            </div>
+            <div class="antec">
+                <br>
+                <div class="fecha">20-10-2020</div>
+                <span class="razon">Hospitalizado por Bronquitis                        </span>
+                <button type="button" class="btn btn-danger">Eliminar</button>
+                <br><br>
+            </div>
+            <div class="antec">
+                <br>
+                <div class="fecha">20-10-2020</div>
+                <span class="razon">Hospitalizado por Intoxicación                     </span>
+                <button type="button" class="btn btn-danger">Eliminar</button>
+                <br><br>
+            </div>
+            <div class="antec">
+                <br>
+                <div class="fecha">20-10-2020</div>
+                <span class="razon">Hospitalizado por XXXXXX                            </span>
+                <button type="button" class="btn btn-danger">Eliminar</button>
+                <br><br>
+            </div>
+        </div>
+        <br><br>
+        <form class="anteCli">
+            <div class="form-group row">
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="rut" placeholder="Motivo Hospitalización">
+                </div>
+            </div>
+            <div class="form-group row"> 
+                <input class="form-control" id="date2" name="date2" placeholder="MM/DD/YYY" type="date"/>
+            </div>
+            <button type="button" class="btn btn-warning">Crear</button>
+        </form>
+    </body>
+</html>

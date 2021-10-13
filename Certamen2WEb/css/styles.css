@@ -1,0 +1,104 @@
+.cajaFoto {
+  align-content: flex-end;
+}
+
+.foto {
+  border: 3px black solid;
+  height: 10%;
+  width: 10%;
+  padding-left: 0.5%;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+.nombre {
+  font-size: 30px;
+  font-weight: bolder;
+  position: relative;
+  bottom: 20px;
+  left: 10px;
+}
+
+.desc {
+  position: relative;
+  padding-top: 100px;
+}
+
+.datitos {
+  position: relative;
+  left: 225px;
+  bottom: 100px;
+}
+
+p {
+  font-weight: bolder;
+  font-size: 18px;
+  padding: 1%;
+}
+
+.signos {
+  border: 2px black solid;
+  width: 17%;
+  max-height: 300px;
+  min-height: 300px;
+  margin-left: 1%;
+}
+
+.sp1 {
+  position: relative;
+  font-size: large;
+  bottom: 90px;
+  left: 10px;
+}
+
+.sp2 {
+  position: relative;
+  left: 130px;
+  font-size: large;
+  bottom: 90px;
+}
+
+.cajaAntec {
+  position: relative;
+  left: 500px;
+  bottom: 450px;
+  width: 400px;
+}
+
+.cajaBord {
+  border: 2px solid black;
+}
+
+.antec {
+  border-width: 0 0 2px 0;
+  border-color: black;
+  border-style: solid;
+}
+
+.inputtt {
+  position: relative;
+  bottom: 95px;
+  left: 100px;
+  width: 50px;
+}
+
+.formulario {
+  position: relative;
+  width: 500px;
+  bottom: 500px;
+  left: 500px;
+}
+
+h1 {
+  position: relative;
+  bottom: 530px;
+  left: 480px;
+}
+
+.anteCli {
+  border: 2px solid black;
+  position: relative;
+  left: 500px;
+  bottom: 450px;
+  width: 450px;
+}
